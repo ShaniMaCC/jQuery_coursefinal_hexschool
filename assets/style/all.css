@@ -652,16 +652,15 @@ h5, .h5 {
 .navbar .active {
   border-bottom: 4px solid #00cc98; }
 
-.footer {
-  position: relative; }
-  .footer a {
-    color: #dc3582; }
+.footer a {
+  color: #dc3582; }
 
 .btn-backtotop {
   padding: 10px 10px 0;
   font-size: 50px;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  color: #dc3582;
+  bottom: 0;
   right: 0; }
 
 .swiper-container {
