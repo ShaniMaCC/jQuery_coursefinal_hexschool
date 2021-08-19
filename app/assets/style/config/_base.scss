@@ -1,0 +1,31 @@
+body{
+    font-size: $fz-sm;
+    font-family: $ff-base;
+    color: $dark;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+h1,.h1{
+    font-size: $fz-xl;
+}
+h2,.h2{
+    font-size: $fz-lg;
+}
+h3,.h3{
+    font-size: $fz-md;
+}
+h4,.h4{
+    font-size: $fz-sm;
+}
+h5,.h5{
+    font-size: $fz-xs;
+}

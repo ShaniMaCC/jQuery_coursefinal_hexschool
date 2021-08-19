@@ -1,0 +1,53 @@
+/*容器*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.header{
+    .fa-twitter{
+        border-left: 1px solid rgb(177, 175, 175);
+    }
+}
+.navbar{
+    
+    >li>a{
+       color: $primary;
+       margin-bottom: -4px;
+       
+    }
+    .dropdown-open{
+        position: absolute;
+        z-index: 1080;
+        background: rgba(177, 175, 175,0.5);
+        border-radius: 3px;
+        a{
+            color: $dark;
+            text-align: center;
+            padding: 5px 5px;
+            
+            //border: 1px solid $light;
+            &:hover{
+                background-color: $primary;
+            }
+        }
+        
+    }
+    .active{
+        border-bottom: 4px solid $primary;
+        
+    } 
+}
+.footer{
+    position: relative;
+    a{
+        color: $danger;
+    }
+}
+.btn-backtotop{
+    padding: 10px 10px 0;   
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

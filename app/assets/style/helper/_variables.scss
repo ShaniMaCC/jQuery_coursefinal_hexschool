@@ -1,0 +1,24 @@
+//font-family
+$ff-base:-apple-system, BlinkMacSystemFont, Roboto,"Microsoft JhengHei", Arial, sans-serif;
+
+//font-size
+$fz-base : 16px;
+
+$fz-xs : $fz-base * 0.875; //14px
+$fz-sm : $fz-base; //16px 
+$fz-md : $fz-base * 1.125; //18px
+$fz-lg : $fz-base * 1.25; //20px
+$fz-xl : $fz-base * 1.5; //24px
+
+//space
+$spacer : 4px;
+
+//color
+$primary: #00cc98;
+$dark: #323232;
+$light: #f6f6f6;
+$danger: #dc3582;
+$white: #fff;
+$black : #000;
+
+
